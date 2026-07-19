@@ -23,3 +23,14 @@ print(Fruits.pop("Banana")) # to remove a key:value pair from the dictionary
 print(Fruits)
 Fruits1 =Fruits.copy() # to create a copy of the dictionary
 print(Fruits1)  
+
+#To take from the user input 
+work={
+    "chai": "tea",
+    "kela": "banana",
+    "madad": "help",
+    "paani": "water",
+}
+
+works=input("Enter a word you want to know the meaning of: ")
+print(work[works])
