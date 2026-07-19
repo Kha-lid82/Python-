@@ -1,0 +1,15 @@
+#tuples are immutable data structures in python. Once a tuple is created, its elements cannot be modified, added, or removed. Tuples are defined using parentheses () and can contain elements of different data types.
+#tuples are useful when you want to group related data together and ensure that the data remains unchanged throughout the program. They are often used to represent fixed collections of values, such as coordinates, RGB color values, or database records.
+#tuples are unordered, meaning that the order of elements in a tuple does not matter. However, they can be indexed and sliced just like lists.
+
+names=("John","Doe","Khalid","Indi",False,12,90.5) # tuple of names
+print(names)
+print(type(names)) # to check the type of variable we use type() function
+print(type(names[5])) # to check the type of variable we use type() function
+print(len(names)) # to check the length of the tuple
+print(names[1]) # to print the second element of the tuple
+print(names[0:3]) # to print the first three elements of the tuple
+print(names.index("Khalid")) # to find the index of an element in the tuple
+print(names.count("Khalid")) # to count the number of occurrences of an element in the tuple
+print("Doe" in names) # to check whether an element is present in the tuple or not
+print(sum([12,90.5])) # to find the sum of the elements in the tuple
