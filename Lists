@@ -31,3 +31,16 @@ L1.reverse() # to reverse the list
 print(L1)
 print(L1.count(21)) # to count the number of occurrences of an element in the list
 
+
+#to take the user input we use input() function
+Names=[]
+Names.append(input("Enter a name: "))
+print(Names)
+print(type(Names)) # to check the type of variable we use type() function
+
+Marks=[]
+Marks.append(int(input("Enter your marks: "))) # to take the single user input we use input() function
+print(Marks)
+
+Marks = list(map(int, input("Enter your marks: ").split())) # to take the multiple user input we use input() function and split() function
+print(Marks)
