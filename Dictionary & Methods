@@ -1,0 +1,25 @@
+#Dictionary are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
+#Dictionaries are unordered, meaning that the order of elements in a dictionary does not matter. However, they can be indexed and sliced just like lists.
+#Dictionaries are defined using curly braces {} and can contain elements of different data types. Each key in a dictionary must be unique and immutable, while the values can be of any data type and can be duplicated.
+#Dictionaries are mutable, meaning that we can change, add, and remove items in a dictionary after it has been created. They are often used to represent structured data, such as JSON objects or database records.
+
+Fruits = {
+    "Apple": 1.5,
+    "Banana": 0.5,
+    "Orange": 0.75,
+    "Watermelon": 33,
+    "Mango": 1.25
+}
+
+print(Fruits)
+print(type(Fruits)) # to check the type of variable we use type() function
+print(Fruits.items()) # to print the items of the dictionary
+print(Fruits.keys()) # to print the keys of the dictionary
+print(Fruits.values()) # to print the values of the dictionary
+print(Fruits.get("Apple")) # to get the value of a key in the dictionary
+Fruits.update({"Grapes": 2.5}) # to add a new key:value pair to the dictionary
+print(Fruits)
+print(Fruits.pop("Banana")) # to remove a key:value pair from the dictionary
+print(Fruits)
+Fruits1 =Fruits.copy() # to create a copy of the dictionary
+print(Fruits1)  
