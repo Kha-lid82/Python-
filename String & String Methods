@@ -1,0 +1,64 @@
+
+name="John Doe"
+age = 12
+marks= 90.5
+name1="This is for split method / testing purpose"
+
+#type checking
+print(type(name)) # to check the type of variable we use type() function
+print(type(age)) # to check the type of variable we use type() function
+print(type(marks)) # to check the type of variable we use type() function
+
+#typecasting
+age=float(age) # to convert the integer into float
+print(type(age)) # to check the type of variable we use type() function
+
+#String Methods
+print(len((name))) # to check the length of the string
+print(name.upper()) # to convert the string into upper case
+print(name.lower()) # to convert the string into lower case
+print(name.capitalize()) # to convert the first letter of the string into upper case
+print(name.startswith("J")) # to check whether the string starts with the given letter or not
+print(name.endswith("n")) # to check whether the string ends with the given letter or not
+print(name.replace("John","Khalid").replace("Doe","Indi")) # to replace the given string with another string
+print(name.find("John")) # to find the index of the given string
+print(name.find(" "))
+print(name.split()) # to split the string into a list of words
+print(name.splitlines()) # to split the string into a list of words
+print(name1.split("/")) # to split the string into a list of words 
+
+#To take the user input we use input() function
+
+name1=input("Enter your name: ") # to take the user input we use input() function
+name2=input("Enter your name: ") # to take the user input we use input() function
+print(f"Welcome to Learning Python {name1} and {name2}") # to print the user input we use print() function
+
+marks1=int(input("Enter your marks: ")) # to take the user input we use input() function
+marks2=int(input("Enter your marks: ")) # to take the user input we use input() function
+print(f"The total marks are: {marks1 + marks2}") # to print the sum of the user inputs
+
+#Slicing in strings
+print(name[0:4]) # to print the characters from index 0 to 3    
+print(name[0:4:2]) # to print the characters from index 0 to 3 with a step of 2
+print(name[:2]) # to print the characters from index 0 to end with a step of 2
+print(name[2:]) # to print the characters from index 2 to end
+
+#remainder and take input from user and print the remainder
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+print(f"The remainder is: {a % b}")
+
+#square of a number and take input from user and print the square
+a=int(input("Enter the number: "))      
+print(f"The square is: {a ** 2}")
+print(f"The square is: {a * a}")
+
+#average of two numbers and take input from user and print the average
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))   
+print(f"The average is: {(a + b) / 2}")
+
+#escape sequence in strings
+print("Hello \nWorld") # to print the string in a new line we use \n
+print("Hello \tWorld") # to print the string with a tab we use \t
+print("Hello \"World\"") # to print the string with double quotes we use \"
