@@ -23,3 +23,21 @@ print(Fruits1.union(Fruits2)) # to perform the union of two sets
 print(Fruits1.intersection(Fruits2)) # to perform the intersection of two sets
 print(Fruits1.difference(Fruits2)) # to perform the difference of two sets
 print(Fruits1.symmetric_difference(Fruits2)) # to perform the symmetric difference of two sets
+
+#To Take input  from the user
+s=set()
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+n=input("Enter the number of elements you want to add in the set: ")
+s.add(int(n))
+print(s)
