@@ -1,0 +1,25 @@
+# Sets are unordered collections of unique elements. They are useful for membership testing, removing duplicates from a sequence, and performing mathematical operations like union, intersection, difference, and symmetric difference.
+# Sets are defined using curly braces {} or the set() constructor. They can contain elements of different data types, but the elements must be immutable (e.g., numbers, strings, tuples). Sets are mutable, meaning that we can add or remove elements after the set has been created.
+# Sets do not support indexing, slicing, or other sequence-like behavior. However, they provide various methods for performing set operations and manipulating the elements within the set.
+#sets items are not changeable, but we can add or remove items from a set after it has been created. Sets are unordered, meaning that the order of elements in a set does not matter.
+
+Fruits = {"Apple", "Banana", "Orange", "Watermelon", "Mango"}
+print(Fruits)
+print(type(Fruits)) # to check the type of variable we use type() function
+print(len(Fruits)) # to check the length of the set
+Fruits.add("Grapes") # to add an element to the set
+print(Fruits)
+Fruits.remove("Banana") # to remove an element from the set
+print(Fruits)
+Fruits.discard("Pineapple") # to remove an element from the set, if it exists
+print(Fruits)
+Fruits.pop() # to remove a random element from the set
+print(Fruits)
+Fruits.clear() # to remove all elements from the set
+print(Fruits)
+Fruits1 = {"Apple", "Banana", "Orange", "Watermelon", "Mango"}
+Fruits2 = {"Grapes", "Pineapple", "Mango", "Banana", "Kiwi"}
+print(Fruits1.union(Fruits2)) # to perform the union of two sets    
+print(Fruits1.intersection(Fruits2)) # to perform the intersection of two sets
+print(Fruits1.difference(Fruits2)) # to perform the difference of two sets
+print(Fruits1.symmetric_difference(Fruits2)) # to perform the symmetric difference of two sets
