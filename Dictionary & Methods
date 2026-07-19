@@ -34,3 +34,29 @@ work={
 
 works=input("Enter a word you want to know the meaning of: ")
 print(work[works])
+
+
+# To take multiple user input for the dictionaries
+
+d={}
+name=input("Enter the name: ")
+language=input("Enter the language: ")
+d.update({name:language}) # to add a new key:value pair to the dictionary
+
+name=input("Enter the name: ")
+language=input("Enter the language: ")
+d.update({name:language}) # to add a new key:value pair to the dictionary
+
+name=input("Enter the name: ")
+language=input("Enter the language: ")
+d.update({name:language}) # to add a new key:value pair to the dictionary
+
+name=input("Enter the name: ")
+language=input("Enter the language: ")
+d.update({name:language}) # to add a new key:value pair to the dictionary
+
+name=input("Enter the name: ")
+language=input("Enter the language: ")
+d.update({name:language}) # to add a new key:value pair to the dictionary
+
+print(d)
