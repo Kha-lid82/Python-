@@ -1,0 +1,33 @@
+#List is a collection of items which is ordered and changeable. In Python, lists are written with square brackets.
+#List are mutable, meaning that we can change, add, and remove items in a list after it has been created.
+#List can contain items of different data types, including strings, integers, floats, and even other lists.
+
+names=["John","Doe","Khalid","Indi",False,12,90.5] # list of names
+print(names)
+print(type(names)) # to check the type of variable we use type() function
+print(type(names[5])) # to check the type of variable we use type() function
+print(len(names)) # to check the length of the list
+print(names[1]) # to print the second element of the list
+print(names[0:3]) # to print the first three elements of the list
+names.append("Ashwin") # to add an element to the end of the list
+print(names)
+names.insert(1,"Karthik") # to add an element at a specific position in the list
+print(names)
+names.remove("Doe") # to remove an element from the list
+print(names)
+names.pop() # to remove the last element from the list
+print(names)
+print(names.index("Khalid")) # to find the index of an element in the list
+names.extend(["Ashwin","Karthik"]) # to add multiple elements to the end of the list
+print(names)
+
+
+L1=[24,445,56,2,21,45] # list of numbers
+L1.sort() # to sort the list in ascending order 
+print(L1)
+L1.remove(445) # to remove an element from the list
+print(L1)
+L1.reverse() # to reverse the list
+print(L1)
+print(L1.count(21)) # to count the number of occurrences of an element in the list
+
